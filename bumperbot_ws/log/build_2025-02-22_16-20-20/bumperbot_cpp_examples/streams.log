@@ -1,0 +1,63 @@
+[0.013s] Invoking command in '/home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.038s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.210s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.220s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.306s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.416s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.448s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.494s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.505s] -- Looking for pthread.h
+[0.582s] -- Looking for pthread.h - found
+[0.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.658s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.659s] -- Found Threads: TRUE  
+[0.712s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.772s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.772s] -- Configured cppcheck include dirs: 
+[0.773s] -- Configured cppcheck exclude dirs and/or files: 
+[0.773s] -- Added test 'lint_cmake' to check CMake code style
+[0.774s] -- Added test 'uncrustify' to check C / C++ code style
+[0.774s] -- Configured uncrustify additional arguments: 
+[0.774s] -- Added test 'xmllint' to check XML markup files
+[0.775s] -- Configuring done
+[0.790s] -- Generating done
+[0.796s] -- Build files have been written to: /home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples
+[0.837s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[0.837s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[0.837s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[3.459s] [ 66%] [32m[1mLinking CXX executable simple_parameter[0m
+[3.606s] [ 66%] Built target simple_parameter
+[4.357s] [ 83%] [32m[1mLinking CXX executable simple_publisher[0m
+[4.548s] [ 83%] Built target simple_publisher
+[7.903s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[8.274s] [100%] Built target simple_subscriber
+[8.287s] Invoked command in '/home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[8.298s] Invoking command in '/home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples
+[8.305s] -- Install configuration: ""
+[8.305s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[8.306s] -- Set runtime path of "/home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[8.307s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[8.310s] -- Set runtime path of "/home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[8.310s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[8.310s] -- Set runtime path of "/home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[8.310s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[8.311s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[8.311s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[8.311s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[8.311s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[8.311s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[8.311s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[8.311s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[8.311s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[8.311s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[8.311s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[8.312s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[8.312s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[8.312s] -- Up-to-date: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[8.312s] -- Installing: /home/raz/projects/self_driving_OD_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[8.314s] Invoked command in '/home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OD_project/bumperbot_ws/build/bumperbot_cpp_examples
