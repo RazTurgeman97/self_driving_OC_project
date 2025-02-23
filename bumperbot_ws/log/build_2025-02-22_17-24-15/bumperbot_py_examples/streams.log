@@ -1,0 +1,45 @@
+[0.660s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[0.875s] running egg_info
+[0.875s] creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[0.876s] writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[0.876s] writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[0.876s] writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[0.876s] writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[0.876s] writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[0.876s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.877s] reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.878s] writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[0.879s] running build
+[0.879s] running build_py
+[0.879s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build
+[0.879s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib
+[0.879s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.879s] copying bumperbot_py_examples/simple_publisher.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.879s] copying bumperbot_py_examples/__init__.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.879s] copying bumperbot_py_examples/simple_parameter.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.879s] copying bumperbot_py_examples/simple_subscriber.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[0.879s] running install
+[0.879s] running install_lib
+[0.880s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.880s] copying /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.880s] copying /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.880s] copying /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.880s] copying /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[0.881s] byte-compiling /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[0.881s] byte-compiling /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[0.881s] byte-compiling /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[0.882s] byte-compiling /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[0.882s] running install_data
+[0.882s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/share/ament_index
+[0.882s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index
+[0.882s] creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.882s] copying resource/bumperbot_py_examples -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[0.882s] copying package.xml -> /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples
+[0.882s] running install_egg_info
+[0.884s] Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[0.884s] running install_scripts
+[0.903s] Installing simple_parameter script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.903s] Installing simple_publisher script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.903s] Installing simple_subscriber script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[0.903s] writing list of installed files to '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/install.log'
+[0.932s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bumperbot_py_examples build --build-base /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build install --record /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
