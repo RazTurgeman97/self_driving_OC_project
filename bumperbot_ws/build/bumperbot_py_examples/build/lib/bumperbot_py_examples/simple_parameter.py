@@ -8,6 +8,7 @@ class SimpleParameter(Node):
     
     def __init__(self):
         super().__init__("simple_parameter")
+        
         self.declare_parameter("simple_int_param", 28)
         self.declare_parameter("simple_string_param", "Antonio")
 

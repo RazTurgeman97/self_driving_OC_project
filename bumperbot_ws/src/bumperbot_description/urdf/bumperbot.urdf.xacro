@@ -2,8 +2,19 @@
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
+  <!-- Include Common Properties -->
+  <xacro:include filename="$(find bumperbot_description)/urdf/common_properties.xacro" />
+
   <!-- Include Gazebo Parameters -->
   <xacro:include filename="$(find bumperbot_description)/urdf/bumperbot_gazebo.xacro" />
+
+  <!-- Useful XACRO Variables (Properties) -->
+  <xacro:property name="effort" value="30.0" />
+  <xacro:property name="velocity" value="10.0" />
+
+  <!-- Dimensions -->
+  <xacro:property name="wheel_length" value="0.03" />
+  <xacro:property name="wheel_radius" value="0.033" />
 
   <!-- Links -->
 
@@ -11,16 +22,17 @@
   
   <link name="base_link">
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/base_link.STL" />
       </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <material name="green" />
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/base_link.STL" />
       </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
     </collision>
     <inertial>
       <origin xyz="0 0 0.04" rpy="0.0 0.25 0.3" />
@@ -33,16 +45,17 @@
 
   <link name="wheel_right_link">
     <visual>
-      <origin xyz="0 0 0" rpy="1.57 0 0" />
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/wheel_right_link.STL" />
       </geometry>
+      <origin xyz="0 0 0" rpy="1.57 0 0" />
+      <material name="black" />
     </visual>
     <collision>
-      <origin xyz="0 -0.015 0" rpy="1.57 0 0" />
       <geometry>
-        <sphere radius="0.033"/>
+        <sphere radius="${wheel_radius}"/>
       </geometry>
+      <origin xyz="0 -${wheel_length / 2.0} 0" rpy="1.57 0 0" />
     </collision>
     <inertial>
       <origin xyz="0 -0.014 0" rpy="0 0 0" />
@@ -55,16 +68,17 @@
 
   <link name="wheel_left_link">
     <visual>
-      <origin xyz="0 0 0" rpy="-1.57 0 0" />
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/wheel_left_link.STL" />
       </geometry>
+      <origin xyz="0 0 0" rpy="-1.57 0 0" />
+      <material name="black" />
     </visual>
     <collision>
-      <origin xyz="0 0.015 0" rpy="-1.57 0 0" />
       <geometry>
-        <sphere radius="0.033"/>
+        <sphere radius="${wheel_radius}"/>
       </geometry>
+      <origin xyz="0 ${wheel_length / 2.0} 0" rpy="-1.57 0 0" />
     </collision>
     <inertial>
       <origin xyz="0 0.014 0" rpy="0 0 0" />
@@ -77,16 +91,17 @@
 
   <link name="caster_front_link">
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/caster_front_link.STL" />
       </geometry>
+      <material name="white" />
     </visual>
-    <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
+    <collision>
       <geometry>
         <sphere radius="0.005"/>
       </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
     </collision>
     <inertial>
       <origin xyz="3.89968128948481E-07 2.40073004698083E-07 0.00219173397061506" rpy="0 0 0" />
@@ -99,16 +114,17 @@
 
   <link name="caster_rear_link">
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://bumperbot_description/meshes/caster_rear_link.STL" />
       </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <material name="white" />
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <sphere radius="0.005"/>
       </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0" />
     </collision>
     <inertial>
       <origin xyz="3.8996812895542E-07 2.40073004698083E-07 0.00219173397061509" rpy="0 0 0" />
@@ -118,6 +134,22 @@
                                                                       izz="1.00967486676306E-10" />
     </inertial>
   </link>
+
+  <!-- <link name="can_link">
+    <visual>
+      <geometry>
+        <mesh filename="package://bumperbot_description/meshes/can.STL" />
+      </geometry>
+      <origin xyz="-0.0325 0.0325 0" rpy="1.57 0 0" />
+      <material name="red" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="package://bumperbot_description/meshes/can.STL" />
+      </geometry>
+      <origin xyz="-0.0325 0.0325 0" rpy="1.57 0 0" />
+    </collision>
+  </link> -->
 
   <!-- Joints -->
 
@@ -154,5 +186,12 @@
     <child link="caster_rear_link" />
     <axis xyz="0 0 0" />
   </joint>
+
+  <!-- <joint name="can_joint" type="fixed">
+    <origin xyz="0 0 0.078" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child link="can_link" />
+    <axis xyz="0 0 0" />
+  </joint> -->
 
 </robot>
