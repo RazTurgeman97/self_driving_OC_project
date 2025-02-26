@@ -236,6 +236,19 @@ simple_parameter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_parameter.dir/build.make CMakeFiles/simple_parameter.dir/build
 .PHONY : simple_parameter/fast
 
+#=============================================================================
+# Target rules for targets named simple_turtlesim_kinematics
+
+# Build rule for target.
+simple_turtlesim_kinematics: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_turtlesim_kinematics
+.PHONY : simple_turtlesim_kinematics
+
+# fast build rule for target.
+simple_turtlesim_kinematics/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/build
+.PHONY : simple_turtlesim_kinematics/fast
+
 src/simple_parameter.o: src/simple_parameter.cpp.o
 .PHONY : src/simple_parameter.o
 
@@ -308,6 +321,30 @@ src/simple_subscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_subscriber.dir/build.make CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.s
 .PHONY : src/simple_subscriber.cpp.s
 
+src/simple_turtlesim_kinematics.o: src/simple_turtlesim_kinematics.cpp.o
+.PHONY : src/simple_turtlesim_kinematics.o
+
+# target to build an object file
+src/simple_turtlesim_kinematics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o
+.PHONY : src/simple_turtlesim_kinematics.cpp.o
+
+src/simple_turtlesim_kinematics.i: src/simple_turtlesim_kinematics.cpp.i
+.PHONY : src/simple_turtlesim_kinematics.i
+
+# target to preprocess a source file
+src/simple_turtlesim_kinematics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.i
+.PHONY : src/simple_turtlesim_kinematics.cpp.i
+
+src/simple_turtlesim_kinematics.s: src/simple_turtlesim_kinematics.cpp.s
+.PHONY : src/simple_turtlesim_kinematics.s
+
+# target to generate assembly for a file
+src/simple_turtlesim_kinematics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_turtlesim_kinematics.dir/build.make CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.s
+.PHONY : src/simple_turtlesim_kinematics.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -326,6 +363,7 @@ help:
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
 	@echo "... simple_subscriber"
+	@echo "... simple_turtlesim_kinematics"
 	@echo "... src/simple_parameter.o"
 	@echo "... src/simple_parameter.i"
 	@echo "... src/simple_parameter.s"
@@ -335,6 +373,9 @@ help:
 	@echo "... src/simple_subscriber.o"
 	@echo "... src/simple_subscriber.i"
 	@echo "... src/simple_subscriber.s"
+	@echo "... src/simple_turtlesim_kinematics.o"
+	@echo "... src/simple_turtlesim_kinematics.i"
+	@echo "... src/simple_turtlesim_kinematics.s"
 .PHONY : help
 
 

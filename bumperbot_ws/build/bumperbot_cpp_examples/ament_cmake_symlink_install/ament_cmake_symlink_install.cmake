@@ -310,7 +310,10 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "simple_publisher" "simple_subscriber" "simple_parameter" "DESTINATION" "lib/bumperbot_cpp_examples")
+# install(DIRECTORY "include" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_cpp_examples" DIRECTORY "include" "DESTINATION" "include")
+
+# install("TARGETS" "simple_publisher" "simple_subscriber" "simple_parameter" "simple_turtlesim_kinematics" "DESTINATION" "lib/bumperbot_cpp_examples")
 include("/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

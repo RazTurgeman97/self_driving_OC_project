@@ -7,6 +7,7 @@
       },
       "includePath": [
         "/opt/ros/humble/include/**",
+        "${workspaceFolder}/**",
         "${workspaceFolder}/bumperbot_ws/src/bumperbot_cpp_examples/include/**",
         "/usr/include/**"
       ],

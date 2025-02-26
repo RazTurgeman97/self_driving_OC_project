@@ -14,6 +14,7 @@
 			"target_link_libraries",
 			"ament_target_dependencies",
 			"add_compile_options",
+			"include_directories",
 			"target_include_directories"
 		],
 		"files" : 
@@ -29,13 +30,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 24,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 25,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -52,6 +53,12 @@
 			},
 			{
 				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
 				"file" : 1,
 				"line" : 141,
 				"parent" : 2
@@ -91,11 +98,15 @@
 			[
 				{
 					"backtrace" : 5,
+					"path" : "/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_cpp_examples/include"
+				},
+				{
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_interfaces"
 				},
