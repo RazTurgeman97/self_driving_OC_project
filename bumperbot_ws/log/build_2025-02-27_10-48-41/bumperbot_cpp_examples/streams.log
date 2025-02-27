@@ -1,0 +1,31 @@
+[0.022s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.075s] [ 50%] Built target simple_parameter
+[0.075s] [ 50%] Built target simple_publisher
+[0.075s] [ 75%] Built target simple_turtlesim_kinematics
+[0.075s] [100%] Built target simple_subscriber
+[0.278s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples -- -j16 -l16
+[0.281s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples
+[0.287s] -- Install configuration: ""
+[0.287s] -- Execute custom install script
+[0.288s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/.gitkeep
+[0.288s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.288s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.288s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.288s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.289s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.290s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.290s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.290s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.290s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.300s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.300s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.300s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.300s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.321s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples
