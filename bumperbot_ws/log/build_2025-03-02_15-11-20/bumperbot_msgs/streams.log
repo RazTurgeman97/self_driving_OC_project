@@ -1,0 +1,234 @@
+[0.021s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16
+[0.045s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.160s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.166s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.188s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.190s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.203s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.231s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.237s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.507s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.879s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.048s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.070s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.070s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.070s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.108s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.116s] -- Added test 'lint_cmake' to check CMake code style
+[1.117s] -- Added test 'xmllint' to check XML markup files
+[1.119s] -- Configuring done
+[1.154s] -- Generating done
+[1.166s] -- Build files have been written to: /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs
+[1.193s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.203s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.213s] [  5%] Built target ament_cmake_python_symlink_bumperbot_msgs
+[1.438s] running egg_info
+[1.438s] writing bumperbot_msgs.egg-info/PKG-INFO
+[1.438s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[1.439s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[1.441s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[1.441s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[1.473s] [  5%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[1.514s] [  5%] Built target bumperbot_msgs__cpp
+[1.522s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_generator_c[0m
+[1.524s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.524s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.524s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.535s] [ 17%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/add_two_ints__functions.c.o[0m
+[1.535s] [ 17%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/bumperbot_msgs/srv/detail/get_transform__functions.c.o[0m
+[1.595s] [ 20%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_generator_c.so[0m
+[1.634s] [ 20%] Built target bumperbot_msgs__rosidl_generator_c
+[1.645s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.645s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.646s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.785s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_cpp[0m
+[1.800s] [ 30%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[1.802s] [ 33%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[1.810s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.827s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp.o[0m
+[1.827s] [ 38%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bumperbot_msgs/srv/detail/get_transform__type_support.cpp.o[0m
+[1.833s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.851s] [ 41%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[1.851s] [ 43%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bumperbot_msgs/srv/detail/dds_fastrtps/get_transform__type_support.cpp.o[0m
+[1.969s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_c[0m
+[1.972s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.984s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_c[0m
+[1.984s] [ 46%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/get_transform__type_support.cpp.o[0m
+[1.987s] [ 48%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bumperbot_msgs/srv/add_two_ints__type_support.cpp.o[0m
+[1.992s] [ 51%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[1.994s] [ 53%] [32mBuilding CXX object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bumperbot_msgs/srv/detail/get_transform__type_support_c.cpp.o[0m
+[2.003s] [ 58%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/add_two_ints__type_support.c.o[0m
+[2.003s] [ 58%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bumperbot_msgs/srv/detail/get_transform__type_support.c.o[0m
+[2.039s] [ 61%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_c.so[0m
+[2.064s] [ 64%] [32m[1mLinking C shared library libbumperbot_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.083s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_cpp.so[0m
+[2.102s] [ 66%] Built target bumperbot_msgs__rosidl_typesupport_c
+[2.107s] [ 66%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[2.142s] [ 66%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[2.250s] [ 69%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.273s] [ 71%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.333s] [ 71%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[2.339s] [ 74%] [32m[1mLinking CXX shared library libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.370s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[2.429s] [ 74%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[2.451s] [ 74%] Built target bumperbot_msgs
+[2.472s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.913s] [ 76%] Built target bumperbot_msgs__py
+[2.923s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_generator_py[0m
+[2.938s] [ 82%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_add_two_ints_s.c.o[0m
+[2.938s] [ 82%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/bumperbot_msgs/srv/_get_transform_s.c.o[0m
+[3.032s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so[0m
+[3.076s] [ 84%] Built target bumperbot_msgs__rosidl_generator_py
+[3.086s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.086s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[3.088s] [35m[1mConsolidate compiler generated dependencies of target bumperbot_msgs__rosidl_typesupport_c__pyext[0m
+[3.099s] [ 87%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.100s] [ 89%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.101s] [ 92%] [32mBuilding C object CMakeFiles/bumperbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.199s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.200s] [100%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.200s] [100%] [32m[1mLinking C shared library rosidl_generator_py/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.241s] [100%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.241s] [100%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[3.243s] [100%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[3.257s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs -- -j16 -l16
+[3.259s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs
+[3.266s] -- Install configuration: ""
+[3.266s] -- Execute custom install script
+[3.266s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[3.267s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.267s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[3.267s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[3.267s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[3.267s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[3.267s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[3.276s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[3.285s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[3.294s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[3.305s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[3.305s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[3.306s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.307s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[3.307s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[3.318s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.318s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[3.318s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[3.318s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[3.318s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[3.319s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[3.319s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[3.328s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[3.338s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[3.347s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp
+[3.355s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[3.366s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.366s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.366s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[3.376s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.376s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[3.376s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[3.385s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.386s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[3.395s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[3.395s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[3.396s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.396s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.397s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.397s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.397s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py
+[3.397s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[3.397s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/__init__.py
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints.py
+[3.398s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[3.398s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform.py
+[3.407s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform_s.c
+[3.417s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.417s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.417s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.417s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[3.417s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[3.427s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[3.427s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Request.msg
+[3.428s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Response.msg
+[3.428s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[3.437s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Request.msg
+[3.446s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Response.msg
+[3.455s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[3.455s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[3.456s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[3.457s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[3.457s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[3.466s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[3.466s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[3.466s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[3.467s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[3.468s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[3.468s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[3.468s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so" to ""
+[3.468s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[3.469s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[3.469s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.469s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.469s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[3.470s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so" to ""
+[3.470s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[3.470s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so" to ""
+[3.471s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[3.471s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[3.471s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[3.471s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so" to ""
+[3.503s] Listing '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs'...
+[3.503s] Compiling '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py'...
+[3.503s] Listing '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv'...
+[3.503s] Compiling '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/__init__.py'...
+[3.503s] Compiling '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints.py'...
+[3.503s] Compiling '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform.py'...
+[3.508s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[3.508s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so" to ""
+[3.508s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake].
+[3.509s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[3.509s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.509s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[3.509s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.509s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.509s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[3.509s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[3.509s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.510s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.510s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[3.510s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.510s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.510s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake].
+[3.510s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[3.510s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.511s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[3.511s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.511s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.511s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake].
+[3.511s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[3.511s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.512s] -- Old export file "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake].
+[3.512s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[3.512s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.516s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs

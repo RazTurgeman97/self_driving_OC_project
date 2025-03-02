@@ -11,7 +11,10 @@ setup.py
 bumperbot_py_examples/__init__.py
 bumperbot_py_examples/simple_parameter.py
 bumperbot_py_examples/simple_publisher.py
+bumperbot_py_examples/simple_service_client.py
+bumperbot_py_examples/simple_service_server.py
 bumperbot_py_examples/simple_subscriber.py
+bumperbot_py_examples/simple_tf_kinematics.py
 bumperbot_py_examples/simple_turtlesim_kinematics.py
 bumperbot_py_examples.egg-info/PKG-INFO
 bumperbot_py_examples.egg-info/SOURCES.txt

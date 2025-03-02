@@ -12,5 +12,10 @@
     "files.associations": {
         "*.cpp": "cpp",
         "functional": "cpp"
-    }
+    },
+    {
+        "C_Cpp.intelliSenseCacheSize": 512,
+        "C_Cpp.intelliSenseMemoryLimit": 4096
+      }
+      
 }
