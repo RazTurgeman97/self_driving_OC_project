@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/include/**",
-        "/home/raz/PD_Robot/ros2_ws/install/sar_controller/include/**",
+        "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/sar_controller/include/**",
         "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/**",
         "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/include/**",
         "/opt/ros/humble/include/**",
