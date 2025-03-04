@@ -1,0 +1,10 @@
+[01m[K/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[01m[K/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:144:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  144 |     transform_broadcaster_->sendTransform(transform_stamped_)
+      |                                                              [01;31m[K^[m[K
+      |                                                              [32m[K;[m[K
+  145 | [32m[K}[m[K
+      | [32m[K~[m[K                                                             
+gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/simple_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,30 @@
+[0.017s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.081s] [ 50%] Built target ament_cmake_python_symlink_bumperbot_controller
+[0.330s] running egg_info
+[0.330s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.330s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.331s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.334s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.334s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.373s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[2.760s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.762s]                  from [01m[K/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_controller/include/bumperbot_controller/simple_controller.hpp:4[m[K,
+[2.762s]                  from [01m[K/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:1[m[K:
+[2.762s] [01m[K/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:[m[K In member function ‘[01m[Kvoid SimpleController::jointCallback(const JointState&)[m[K’:
+[2.762s] [01m[K/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_controller/src/simple_controller.cpp:77:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before string constant
+[2.762s]    77 |     RCLCPP_INFO_STREAM(get_logger(), "x: " << x_ << ", y: " << y_ [01;31m[K", theta: "[m[K << theta_);
+[2.762s]       |                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[5.715s] gmake[2]: *** [CMakeFiles/simple_controller.dir/build.make:76: CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o] Error 1
+[5.715s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/simple_controller.dir/all] Error 2
+[5.716s] gmake: *** [Makefile:146: all] Error 2
+[5.719s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller -- -j16 -l16

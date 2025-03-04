@@ -1,0 +1,51 @@
+[0.018s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target simple_controller[0m
+[0.075s] [  0%] Built target ament_cmake_python_symlink_bumperbot_controller
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_controller.dir/src/simple_controller.cpp.o[0m
+[0.302s] running egg_info
+[0.302s] writing bumperbot_controller.egg-info/PKG-INFO
+[0.303s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[0.303s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[0.305s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.305s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[0.339s] [ 50%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[10.145s] [100%] [32m[1mLinking CXX executable simple_controller[0m
+[10.751s] [100%] Built target simple_controller
+[10.764s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller -- -j16 -l16
+[10.766s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller
+[10.773s] -- Install configuration: ""
+[10.773s] -- Execute custom install script
+[10.773s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[10.773s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[10.773s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/.gitkeep
+[10.774s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[10.775s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[10.775s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[10.775s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[10.775s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[10.775s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[10.775s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[10.776s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[10.777s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[10.777s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[10.777s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[10.777s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[10.777s] -- Symlinking: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[10.788s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[10.788s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[10.788s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[10.789s] -- Up-to-date symlink: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[10.817s] Listing '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[10.825s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_controller

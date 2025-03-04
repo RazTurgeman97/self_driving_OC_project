@@ -5,7 +5,6 @@ from launch.actions import DeclareLaunchArgument, GroupAction
 from launch.substitutions import LaunchConfiguration
 from launch.conditions import IfCondition, UnlessCondition
 
-
 def generate_launch_description():
     
     use_python_arg = DeclareLaunchArgument(
@@ -37,7 +36,6 @@ def generate_launch_description():
     wheel_separation = LaunchConfiguration("wheel_separation")
     use_simple_controller = LaunchConfiguration("use_simple_controller")
     
-
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner",
@@ -97,7 +95,6 @@ def generate_launch_description():
         ]
     )
     
-
     return LaunchDescription([
         use_python_arg,
         wheel_radius_arg,
@@ -106,5 +103,4 @@ def generate_launch_description():
         joint_state_broadcaster_spawner,
         wheel_controller_spawner,
         simple_controller,
-        
     ])

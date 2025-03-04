@@ -1,0 +1,23 @@
+[0.640s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples': PYTHONPATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
+[0.883s] running develop
+[1.052s] running egg_info
+[1.052s] writing bumperbot_py_examples.egg-info/PKG-INFO
+[1.052s] writing dependency_links to bumperbot_py_examples.egg-info/dependency_links.txt
+[1.052s] writing entry points to bumperbot_py_examples.egg-info/entry_points.txt
+[1.052s] writing requirements to bumperbot_py_examples.egg-info/requires.txt
+[1.052s] writing top-level names to bumperbot_py_examples.egg-info/top_level.txt
+[1.054s] reading manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.055s] writing manifest file 'bumperbot_py_examples.egg-info/SOURCES.txt'
+[1.056s] running build_ext
+[1.056s] Creating /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot-py-examples.egg-link (link to .)
+[1.057s] Installing simple_parameter script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.057s] Installing simple_publisher script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.057s] Installing simple_service_client script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.058s] Installing simple_service_server script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.058s] Installing simple_subscriber script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.058s] Installing simple_tf_kinematics script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.058s] Installing simple_turtlesim_kinematics script to /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[1.058s] 
+[1.058s] Installed /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples
+[1.058s] running symlink_data
+[1.095s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples' returned '0': PYTHONPATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_py_examples/build --no-deps symlink_data
