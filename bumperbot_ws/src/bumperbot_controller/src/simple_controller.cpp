@@ -5,12 +5,12 @@
 using std::placeholders::_1;
 
 SimpleController::SimpleController(const std::string & name)
-: Node(name)
-, right_wheel_prev_pos_(0.0)
-, left_wheel_prev_pos_(0.0)
-, x_ (0.0)
-, y_ (0.0)
-, theta_ (0.0)
+    : Node(name)
+    , right_wheel_prev_pos_(0.0)
+    , left_wheel_prev_pos_(0.0)
+    , x_ (0.0)
+    , y_ (0.0)
+    , theta_ (0.0)
 {
     declare_parameter("wheel_radius", 0.033);
     declare_parameter("wheel_separation", 0.17);
@@ -81,32 +81,9 @@ void SimpleController::jointCallback(const sensor_msgs::msg::JointState & msg)
     double d_s = (wheel_radius_ * dp_right + wheel_radius_ * dp_left) / 2.0;
     double d_theta = (wheel_radius_ * (dp_right - dp_left)) / wheel_separation_;
 
-    double prev_theta = theta_;
     theta_ += d_theta;
     x_ += d_s * cos(theta_);
     y_ += d_s * sin(theta_);
-
-    // Convert theta_ to degrees
-    double theta_deg = theta_ * (180.0 / M_PI);
-
-    // Wrap theta_deg to be within [0, 360] for CCW and [-360, 0] for CW
-    if (theta_deg >= 0) {
-        theta_deg = fmod(theta_deg, 360.0);
-    } else {
-        theta_deg = -fmod(-theta_deg, 360.0);
-    }
-
-    // Detect if theta_ has passed through zero and adjust the sign
-    if ((prev_theta < 0 && theta_ >= 0) || (prev_theta >= 0 && theta_ < 0)) {
-        if (theta_deg > 180) {
-            theta_deg -= 360;
-        } else if (theta_deg < -180) {
-            theta_deg += 360;
-        }
-    }
-
-    // Convert back to radians
-    theta_ = theta_deg * (M_PI / 180.0);
 
 
     tf2::Quaternion q;
@@ -125,7 +102,6 @@ void SimpleController::jointCallback(const sensor_msgs::msg::JointState & msg)
     odom_msg_.twist.twist.angular.z = angular;
 
 
-
     transform_stamped_.transform.translation.x = x_;
     transform_stamped_.transform.translation.y = y_;
 
@@ -136,9 +112,6 @@ void SimpleController::jointCallback(const sensor_msgs::msg::JointState & msg)
 
     transform_stamped_.header.stamp = get_clock()->now();
 
-
-    // RCLCPP_INFO_STREAM(get_logger(), "Linear Velocity: " << linear << " Angular Velocity: " << angular);
-    // RCLCPP_INFO_STREAM(get_logger(), "x: " << x_ << ", y: " << y_ << ", theta: " << theta_deg);
 
     odom_pub_->publish(odom_msg_);
     transform_broadcaster_->sendTransform(transform_stamped_);

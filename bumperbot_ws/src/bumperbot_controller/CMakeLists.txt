@@ -27,13 +27,17 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 add_executable(simple_controller src/simple_controller.cpp)
 ament_target_dependencies(simple_controller rclcpp std_msgs geometry_msgs ${Eigen_LIBRARIES} sensor_msgs nav_msgs tf2 tf2_ros)
 
+add_executable(noisy_controller src/noisy_controller.cpp)
+ament_target_dependencies(noisy_controller rclcpp geometry_msgs ${Eigen_LIBRARIES} sensor_msgs nav_msgs tf2 tf2_ros)
+
 install(
   DIRECTORY include
   DESTINATION include
 )
 
-install(
-  TARGETS simple_controller
+install(TARGETS
+  simple_controller
+  noisy_controller
   DESTINATION lib/${PROJECT_NAME})
 
 install(
@@ -43,6 +47,7 @@ install(
 
 install(PROGRAMS
   ${PROJECT_NAME}/simple_controller.py
+  ${PROJECT_NAME}/noisy_controller.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
