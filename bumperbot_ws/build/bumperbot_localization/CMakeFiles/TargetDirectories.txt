@@ -1,0 +1,13 @@
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/uninstall.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/bumperbot_localization_uninstall.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/ament_cmake_python_symlink_bumperbot_localization.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/ament_cmake_python_build_bumperbot_localization_egg.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/kalman_filter.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/imu_republisher.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/test.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/edit_cache.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/rebuild_cache.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/list_install_components.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/install.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/install/local.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/CMakeFiles/install/strip.dir

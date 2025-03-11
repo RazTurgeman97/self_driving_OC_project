@@ -1,0 +1,8 @@
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:204 (message):
+  ament_cmake_symlink_install_programs() can't find
+  '/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_localization/bumperbot_localization/kalman_republisher.py'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:326 (ament_cmake_symlink_install_programs)
+  cmake_install.cmake:46 (include)
+
+[0m

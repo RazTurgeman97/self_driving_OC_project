@@ -1,0 +1,1 @@
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_localization/ament_cmake_core/bumperbot_localizationConfig-version.cmake

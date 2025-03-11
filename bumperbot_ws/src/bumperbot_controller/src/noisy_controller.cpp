@@ -59,8 +59,10 @@ void NoisyController::jointCallback(const sensor_msgs::msg::JointState & msg)
     rclcpp::Time msg_time = msg.header.stamp;
     rclcpp::Duration dt = msg_time - prev_time_;
 
-    right_wheel_prev_pos_ = msg.position.at(0) + right_encoder_noise(noise_generator);
-    left_wheel_prev_pos_ = msg.position.at(1) + left_encoder_noise(noise_generator);
+    // right_wheel_prev_pos_ = msg.position.at(0) + right_encoder_noise(noise_generator);
+    // left_wheel_prev_pos_ = msg.position.at(1) + left_encoder_noise(noise_generator);
+    right_wheel_prev_pos_ = wheel_encoder_right;
+    left_wheel_prev_pos_ = wheel_encoder_left;
     prev_time_ = msg_time;
 
     double phi_right = dp_right / dt.seconds();
