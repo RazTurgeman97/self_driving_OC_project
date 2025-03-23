@@ -15,7 +15,7 @@ KalmanFilter::KalmanFilter(const std::string & name)
     odom_sub_ = create_subscription<nav_msgs::msg::Odometry>(
         "bumperbot_controller/odom_noisy", 10, std::bind(&KalmanFilter::odomCallback, this, std::placeholders::_1));
     imu_sub_ = create_subscription<sensor_msgs::msg::Imu>(
-        "imu/out", 10, std::bind(&KalmanFilter::imuCallback, this, std::placeholders::_1));
+        "imu/out", 1000, std::bind(&KalmanFilter::imuCallback, this, std::placeholders::_1));
     odom_pub_ = create_publisher<nav_msgs::msg::Odometry>("bumperbot_controller/odom_filtered", 10);
 }
 
