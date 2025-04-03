@@ -1,1 +1,4 @@
-/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs/ament_cmake_environment_hooks/local_setup.dsv
+source;share/bumperbot_msgs/environment/ament_prefix_path.sh
+source;share/bumperbot_msgs/environment/library_path.sh
+source;share/bumperbot_msgs/environment/path.sh
+source;share/bumperbot_msgs/environment/pythonpath.sh

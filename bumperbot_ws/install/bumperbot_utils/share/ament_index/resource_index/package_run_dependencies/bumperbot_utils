@@ -1,1 +1,1 @@
-/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+rclcpp;rclpy;nav_msgs;geometry_msgs;ament_lint_auto;ament_lint_common

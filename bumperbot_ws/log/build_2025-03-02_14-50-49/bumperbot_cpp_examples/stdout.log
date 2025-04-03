@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
-[ 57%] Built target simple_publisher
-[ 57%] Built target simple_parameter
-[ 57%] Built target simple_subscriber
-[ 57%] Built target simple_tf_kinematics
-[ 71%] Built target simple_service_server
-[ 85%] Built target simple_turtlesim_kinematics
-[ 92%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m

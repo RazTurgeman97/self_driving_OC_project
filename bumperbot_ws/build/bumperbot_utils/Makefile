@@ -198,17 +198,17 @@ bumperbot_utils_uninstall/fast:
 .PHONY : bumperbot_utils_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_bumperbot_utils
+# Target rules for targets named ament_cmake_python_copy_bumperbot_utils
 
 # Build rule for target.
-ament_cmake_python_symlink_bumperbot_utils: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_bumperbot_utils
-.PHONY : ament_cmake_python_symlink_bumperbot_utils
+ament_cmake_python_copy_bumperbot_utils: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_bumperbot_utils
+.PHONY : ament_cmake_python_copy_bumperbot_utils
 
 # fast build rule for target.
-ament_cmake_python_symlink_bumperbot_utils/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_bumperbot_utils.dir/build.make CMakeFiles/ament_cmake_python_symlink_bumperbot_utils.dir/build
-.PHONY : ament_cmake_python_symlink_bumperbot_utils/fast
+ament_cmake_python_copy_bumperbot_utils/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_bumperbot_utils.dir/build.make CMakeFiles/ament_cmake_python_copy_bumperbot_utils.dir/build
+.PHONY : ament_cmake_python_copy_bumperbot_utils/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_bumperbot_utils_egg
@@ -274,7 +274,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_bumperbot_utils_egg"
-	@echo "... ament_cmake_python_symlink_bumperbot_utils"
+	@echo "... ament_cmake_python_copy_bumperbot_utils"
 	@echo "... bumperbot_utils_uninstall"
 	@echo "... uninstall"
 	@echo "... trajectory_visualization"

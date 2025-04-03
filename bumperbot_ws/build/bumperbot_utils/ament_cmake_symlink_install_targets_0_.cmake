@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils/trajectory_visualization" "TARGETS" "trajectory_visualization" "DESTINATION" "lib/bumperbot_utils")

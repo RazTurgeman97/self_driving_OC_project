@@ -1,1 +1,3 @@
-/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs/rosidl_cmake/srv/GetTransform_Request.msg
+# Request
+string frame_id
+string child_frame_id

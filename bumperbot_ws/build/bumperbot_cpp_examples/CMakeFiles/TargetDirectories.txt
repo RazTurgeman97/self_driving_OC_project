@@ -7,6 +7,7 @@
 /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_tf_kinematics.dir
 /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_service_server.dir
 /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_service_client.dir
+/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/simple_lifecycle_node.dir
 /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/test.dir
 /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/edit_cache.dir
 /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples/CMakeFiles/rebuild_cache.dir

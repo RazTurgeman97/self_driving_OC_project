@@ -1,1 +1,7 @@
-/home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_msgs/srv/GetTransform.srv
+# Request
+string frame_id
+string child_frame_id
+---
+# Response
+geometry_msgs/TransformStamped transform
+bool success

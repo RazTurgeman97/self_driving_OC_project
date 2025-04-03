@@ -288,6 +288,43 @@ simple_service_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/build
 .PHONY : simple_service_client/fast
 
+#=============================================================================
+# Target rules for targets named simple_lifecycle_node
+
+# Build rule for target.
+simple_lifecycle_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_lifecycle_node
+.PHONY : simple_lifecycle_node
+
+# fast build rule for target.
+simple_lifecycle_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/build
+.PHONY : simple_lifecycle_node/fast
+
+src/simple_lifecycle_node.o: src/simple_lifecycle_node.cpp.o
+.PHONY : src/simple_lifecycle_node.o
+
+# target to build an object file
+src/simple_lifecycle_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o
+.PHONY : src/simple_lifecycle_node.cpp.o
+
+src/simple_lifecycle_node.i: src/simple_lifecycle_node.cpp.i
+.PHONY : src/simple_lifecycle_node.i
+
+# target to preprocess a source file
+src/simple_lifecycle_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.i
+.PHONY : src/simple_lifecycle_node.cpp.i
+
+src/simple_lifecycle_node.s: src/simple_lifecycle_node.cpp.s
+.PHONY : src/simple_lifecycle_node.s
+
+# target to generate assembly for a file
+src/simple_lifecycle_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_lifecycle_node.dir/build.make CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.s
+.PHONY : src/simple_lifecycle_node.cpp.s
+
 src/simple_parameter.o: src/simple_parameter.cpp.o
 .PHONY : src/simple_parameter.o
 
@@ -471,6 +508,7 @@ help:
 	@echo "... test"
 	@echo "... bumperbot_cpp_examples_uninstall"
 	@echo "... uninstall"
+	@echo "... simple_lifecycle_node"
 	@echo "... simple_parameter"
 	@echo "... simple_publisher"
 	@echo "... simple_service_client"
@@ -478,6 +516,9 @@ help:
 	@echo "... simple_subscriber"
 	@echo "... simple_tf_kinematics"
 	@echo "... simple_turtlesim_kinematics"
+	@echo "... src/simple_lifecycle_node.o"
+	@echo "... src/simple_lifecycle_node.i"
+	@echo "... src/simple_lifecycle_node.s"
 	@echo "... src/simple_parameter.o"
 	@echo "... src/simple_parameter.i"
 	@echo "... src/simple_parameter.s"

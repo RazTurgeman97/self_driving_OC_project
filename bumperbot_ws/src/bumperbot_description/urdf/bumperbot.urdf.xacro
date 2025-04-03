@@ -5,6 +5,9 @@
   <!-- Start GZ or Ignition depending on ROS 2 Version -->
   <xacro:arg name="is_ignition" default="True"/>
 
+  <!-- Determine between simulation and real hardware -->
+  <xacro:arg name="is_sim" default="True"/>
+
   <!-- Include Common Properties -->
   <xacro:include filename="$(find bumperbot_description)/urdf/common_properties.xacro" />
 

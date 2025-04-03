@@ -1,1 +1,3 @@
-/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_msgs/rosidl_cmake/srv/AddTwoInts_Response.msg
+
+# Responce
+int64 sum
