@@ -36,7 +36,7 @@ def generate_launch_description():
         package="controller_manager",
         executable="ros2_control_node",
         output="screen",
-        arguments=[
+        parameters=[
             {"robot_description:": robot_description,
              "use_sim_time:": False},
             os.path.join(
@@ -47,15 +47,8 @@ def generate_launch_description():
         ]
     )
     
-    # imu_driver_node = Node(
-    #     package="bumperbot_firmware",
-    #     executable="mpu6050_driver.py",
-    #     output="screen"
-    # )
-    
     return LaunchDescription([
         model_arg,
         robot_state_publisher_node,
         controller_manager,
-        # imu_driver_node,
     ])
