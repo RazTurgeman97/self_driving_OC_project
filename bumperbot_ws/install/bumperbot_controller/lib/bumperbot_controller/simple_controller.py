@@ -24,8 +24,8 @@ class SimpleController(Node):
         self.wheel_radius_ = self.get_parameter("wheel_raduis").get_parameter_value().double_value
         self.wheel_separation_ = self.get_parameter("wheel_separation").get_parameter_value().double_value
         
-        self.get_logger().info("Using wheel raduis: %f" % self.wheel_radius_)
-        self.get_logger().info("Using wheel separation: %f" % self.wheel_separation_)
+        self.get_logger().info("Using wheel raduis: %d" % self.wheel_radius_)
+        self.get_logger().info("Using wheel separation: %d" % self.wheel_separation_)
         
         self.right_wheel_prev_pos_ = 0.0
         self.left_wheel_prev_pos_ = 0.0
@@ -37,7 +37,7 @@ class SimpleController(Node):
         
         
         self.wheel_cmd_pub_ = self.create_publisher(Float64MultiArray, "simple_velocity_controller/commands", 10)
-        self.vel_sub_ = self.create_subscription(TwistStamped, "bumperbot_controller/cmd_vel", self.valCallback, 10)
+        self.vel_sub_ = self.create_subscription(TwistStamped, "bumperbot_controller/cmd_vel", self.velCallback, 10)
         self.joint_sub_ = self.create_subscription(JointState, "joint_states", self.jointCallback, 10)
         self.odom_pub_ = self.create_publisher(Odometry, "bumperbot_controller/odom", 10)
         
@@ -61,7 +61,7 @@ class SimpleController(Node):
         
         self.get_logger().info("The convertion matrix is %s" % self.speed_convertion_)
         
-    def valCallback(self, msg):
+    def velCallback(self, msg):
         robot_speed = np.array([[msg.twist.linear.x],
                                 [msg.twist.angular.z]])
         

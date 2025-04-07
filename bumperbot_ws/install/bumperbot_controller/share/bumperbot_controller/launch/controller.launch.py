@@ -11,6 +11,7 @@ def noisy_controller(context, *args, **kwargs):
     wheel_radius_error = float(LaunchConfiguration("wheel_radius_error").perform(context))
     wheel_separation_error = float(LaunchConfiguration("wheel_separation_error").perform(context))
     
+    use_sim_time = LaunchConfiguration("use_sim_time")
     use_python = LaunchConfiguration("use_python")
     
     noisy_controller_py = Node(
@@ -20,6 +21,7 @@ def noisy_controller(context, *args, **kwargs):
         parameters=[{
             "wheel_radius": wheel_radius + wheel_radius_error,
             "wheel_separation": wheel_separation + wheel_separation_error,
+            "use_sim_time": use_sim_time
         }],
         condition=IfCondition(use_python)
     )
@@ -31,6 +33,7 @@ def noisy_controller(context, *args, **kwargs):
         parameters=[{
             "wheel_radius": wheel_radius + wheel_radius_error,
             "wheel_separation": wheel_separation + wheel_separation_error,
+            "use_sim_time": use_sim_time
         }],
         condition=UnlessCondition(use_python)
     )
@@ -41,6 +44,11 @@ def noisy_controller(context, *args, **kwargs):
     ]
 
 def generate_launch_description():
+    
+    use_sim_time_arg = DeclareLaunchArgument(
+        "use_sim_time",
+        default_value="True",
+    )
     
     use_python_arg = DeclareLaunchArgument(
         "use_python",
@@ -76,6 +84,7 @@ def generate_launch_description():
         default_value="0.02",
     )
     
+    use_sim_time = LaunchConfiguration("use_sim_time")
     use_python = LaunchConfiguration("use_python")
     wheel_radius = LaunchConfiguration("wheel_radius")
     wheel_separation = LaunchConfiguration("wheel_separation")
@@ -121,6 +130,7 @@ def generate_launch_description():
                 parameters=[{
                     "wheel_radius": wheel_radius,
                     "wheel_separation": wheel_separation,
+                    "use_sim_time": use_sim_time
                     }
                 ],
                 condition=IfCondition(use_python),
@@ -133,6 +143,7 @@ def generate_launch_description():
                 parameters=[{
                     "wheel_radius": wheel_radius,
                     "wheel_separation": wheel_separation,
+                    "use_sim_time": use_sim_time
                     }
                 ],
                 condition=UnlessCondition(use_python),
@@ -145,6 +156,7 @@ def generate_launch_description():
     )
     
     return LaunchDescription([
+        use_sim_time_arg,
         use_python_arg,
         wheel_radius_arg,
         wheel_separation_arg,

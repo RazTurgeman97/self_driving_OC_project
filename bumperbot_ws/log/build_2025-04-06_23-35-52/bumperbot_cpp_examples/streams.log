@@ -1,0 +1,113 @@
+[0.014s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_localization:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_firmware:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_description:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_bringup:/home/raz/PD_Robot/ros2_ws/install/sar_utils:/home/raz/PD_Robot/ros2_ws/install/sar_cpp_examples:/home/raz/PD_Robot/ros2_ws/install/sar_msgs:/home/raz/PD_Robot/ros2_ws/install/sar_localization:/home/raz/PD_Robot/ros2_ws/install/sar_firmware:/home/raz/PD_Robot/ros2_ws/install/sar_description:/home/raz/PD_Robot/ros2_ws/install/sar_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake /home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.103s] -- The CXX compiler identification is GNU 11.4.0
+[0.108s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.173s] -- Detecting C compile features
+[0.173s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.247s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.251s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.385s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.466s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.509s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.513s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.655s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.686s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.746s] -- Looking for pthread.h
+[0.811s] -- Looking for pthread.h - found
+[0.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.871s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.872s] -- Found Threads: TRUE  
+[0.911s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.942s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.952s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.008s] -- Found bumperbot_msgs: 0.0.0 (/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[1.018s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.041s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.115s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.116s] -- Configured cppcheck include dirs: /home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_cpp_examples/include
+[1.116s] -- Configured cppcheck exclude dirs and/or files: 
+[1.116s] -- Added test 'lint_cmake' to check CMake code style
+[1.117s] -- Added test 'uncrustify' to check C / C++ code style
+[1.117s] -- Configured uncrustify additional arguments: 
+[1.117s] -- Added test 'xmllint' to check XML markup files
+[1.119s] -- Configuring done
+[1.138s] -- Generating done
+[1.147s] -- Build files have been written to: /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples
+[1.154s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_localization:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_firmware:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_description:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_bringup:/home/raz/PD_Robot/ros2_ws/install/sar_utils:/home/raz/PD_Robot/ros2_ws/install/sar_cpp_examples:/home/raz/PD_Robot/ros2_ws/install/sar_msgs:/home/raz/PD_Robot/ros2_ws/install/sar_localization:/home/raz/PD_Robot/ros2_ws/install/sar_firmware:/home/raz/PD_Robot/ros2_ws/install/sar_description:/home/raz/PD_Robot/ros2_ws/install/sar_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake /home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples
+[1.155s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_localization:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_firmware:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_description:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_bringup:/home/raz/PD_Robot/ros2_ws/install/sar_utils:/home/raz/PD_Robot/ros2_ws/install/sar_cpp_examples:/home/raz/PD_Robot/ros2_ws/install/sar_msgs:/home/raz/PD_Robot/ros2_ws/install/sar_localization:/home/raz/PD_Robot/ros2_ws/install/sar_firmware:/home/raz/PD_Robot/ros2_ws/install/sar_description:/home/raz/PD_Robot/ros2_ws/install/sar_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples -- -j24 -l24
+[1.197s] [  6%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[1.198s] [ 12%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[1.198s] [ 18%] [32mBuilding CXX object CMakeFiles/simple_lifecycle_node.dir/src/simple_lifecycle_node.cpp.o[0m
+[1.198s] [ 25%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[1.199s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[1.199s] [ 37%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[1.199s] [ 43%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[1.200s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[3.193s] [ 56%] [32m[1mLinking CXX executable simple_parameter[0m
+[3.271s] [ 56%] Built target simple_parameter
+[3.445s] [ 62%] [32m[1mLinking CXX executable simple_service_client[0m
+[3.554s] [ 62%] Built target simple_service_client
+[4.253s] [ 68%] [32m[1mLinking CXX executable simple_publisher[0m
+[4.372s] [ 68%] Built target simple_publisher
+[4.417s] [ 75%] [32m[1mLinking CXX executable simple_service_server[0m
+[4.517s] [ 75%] Built target simple_service_server
+[4.708s] [ 81%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[4.873s] [ 81%] Built target simple_tf_kinematics
+[6.582s] [ 87%] [32m[1mLinking CXX executable simple_subscriber[0m
+[6.805s] [ 87%] Built target simple_subscriber
+[7.102s] [ 93%] [32m[1mLinking CXX executable simple_lifecycle_node[0m
+[7.304s] [100%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[7.347s] [100%] Built target simple_lifecycle_node
+[7.557s] [100%] Built target simple_turtlesim_kinematics
+[7.567s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_localization:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_firmware:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_description:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_bringup:/home/raz/PD_Robot/ros2_ws/install/sar_utils:/home/raz/PD_Robot/ros2_ws/install/sar_cpp_examples:/home/raz/PD_Robot/ros2_ws/install/sar_msgs:/home/raz/PD_Robot/ros2_ws/install/sar_localization:/home/raz/PD_Robot/ros2_ws/install/sar_firmware:/home/raz/PD_Robot/ros2_ws/install/sar_description:/home/raz/PD_Robot/ros2_ws/install/sar_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples -- -j24 -l24
+[7.568s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_localization:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_firmware:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_description:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_bringup:/home/raz/PD_Robot/ros2_ws/install/sar_utils:/home/raz/PD_Robot/ros2_ws/install/sar_cpp_examples:/home/raz/PD_Robot/ros2_ws/install/sar_msgs:/home/raz/PD_Robot/ros2_ws/install/sar_localization:/home/raz/PD_Robot/ros2_ws/install/sar_firmware:/home/raz/PD_Robot/ros2_ws/install/sar_description:/home/raz/PD_Robot/ros2_ws/install/sar_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples
+[7.575s] -- Install configuration: ""
+[7.575s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[7.575s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[7.575s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[7.576s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[7.576s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/.gitkeep
+[7.576s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[7.576s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[7.576s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[7.578s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[7.578s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[7.578s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[7.578s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[7.579s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[7.579s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[7.580s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[7.580s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[7.580s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[7.580s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[7.581s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[7.581s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[7.582s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+[7.582s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[7.582s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[7.583s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[7.585s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_msgs:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_cpp_examples:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_localization:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_firmware:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_description:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_bringup:/home/raz/PD_Robot/ros2_ws/install/sar_utils:/home/raz/PD_Robot/ros2_ws/install/sar_cpp_examples:/home/raz/PD_Robot/ros2_ws/install/sar_msgs:/home/raz/PD_Robot/ros2_ws/install/sar_localization:/home/raz/PD_Robot/ros2_ws/install/sar_firmware:/home/raz/PD_Robot/ros2_ws/install/sar_description:/home/raz/PD_Robot/ros2_ws/install/sar_controller:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_cpp_examples

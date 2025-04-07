@@ -1,0 +1,96 @@
+[0.017s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake /home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.154s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.205s] -- Detecting CXX compiler ABI info - done
+[0.210s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.210s] -- Detecting CXX compile features
+[0.210s] -- Detecting CXX compile features - done
+[0.212s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.326s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.399s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.400s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.434s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.438s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.445s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.466s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.500s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.503s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.566s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.588s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.621s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.628s] -- Looking for pthread.h
+[0.676s] -- Looking for pthread.h - found
+[0.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.730s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.731s] -- Found Threads: TRUE  
+[0.771s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.851s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.907s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.907s] -- Configured cppcheck include dirs: 
+[0.907s] -- Configured cppcheck exclude dirs and/or files: 
+[0.908s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.908s] -- Added test 'lint_cmake' to check CMake code style
+[0.909s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.909s] -- Added test 'uncrustify' to check C / C++ code style
+[0.909s] -- Configured uncrustify additional arguments: 
+[0.910s] -- Added test 'xmllint' to check XML markup files
+[0.910s] -- Configuring done
+[0.916s] -- Generating done
+[0.919s] -- Build files have been written to: /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils
+[0.925s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake /home/raz/projects/self_driving_OC_project/bumperbot_ws/src/bumperbot_utils -DCMAKE_INSTALL_PREFIX=/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils
+[0.926s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils -- -j24 -l24
+[0.964s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_visualization.dir/src/trajectory_visualization.cpp.o[0m
+[0.972s] [ 50%] Built target ament_cmake_python_copy_bumperbot_utils
+[1.128s] running egg_info
+[1.129s] creating bumperbot_utils.egg-info
+[1.129s] writing bumperbot_utils.egg-info/PKG-INFO
+[1.129s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[1.129s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[1.129s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.130s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.130s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[1.149s] [ 50%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[6.517s] [100%] [32m[1mLinking CXX executable trajectory_visualization[0m
+[6.835s] [100%] Built target trajectory_visualization
+[6.845s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils -- -j24 -l24
+[6.847s] Invoking command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils
+[6.851s] -- Install configuration: ""
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/trajectory_visualization.py
+[6.852s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[6.879s] Listing '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[6.879s] Compiling '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py'...
+[6.879s] Compiling '/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/trajectory_visualization.py'...
+[6.883s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_visualization
+[6.884s] -- Set runtime path of "/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_visualization" to ""
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/lib/bumperbot_utils/trajectory_visualization.py
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[6.885s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[6.886s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[6.886s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[6.886s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[6.886s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[6.886s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[6.886s] -- Installing: /home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[6.887s] Invoked command in '/home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/raz/projects/self_driving_OC_project/bumperbot_ws/install/bumperbot_py_examples:/home/raz/PD_Robot/ros2_ws/install/sar_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/raz/projects/self_driving_OC_project/bumperbot_ws/build/bumperbot_utils

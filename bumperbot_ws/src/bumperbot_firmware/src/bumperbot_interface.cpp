@@ -1,15 +1,16 @@
 #include "bumperbot_firmware/bumperbot_interface.hpp"
 #include <hardware_interface/types/hardware_interface_type_values.hpp>
+#include <pluginlib/class_list_macros.hpp>
 
 
 namespace bumperbot_firmware
 {
-BumerbotInterface::BumerbotInterface()
+BumperbotInterface::BumperbotInterface()
 {
 
 }
 
-BumerbotInterface::~BumerbotInterface()
+BumperbotInterface::~BumperbotInterface()
 {
     if(arduino_.IsOpen())
     {
@@ -26,7 +27,7 @@ BumerbotInterface::~BumerbotInterface()
     }
 }
 
-CallbackReturn BumerbotInterface::on_init(const hardware_interface::HardwareInfo & hardware_info)
+CallbackReturn BumperbotInterface::on_init(const hardware_interface::HardwareInfo & hardware_info)
 {
 
     CallbackReturn result = hardware_interface::SystemInterface::on_init(hardware_info);
@@ -56,7 +57,7 @@ CallbackReturn BumerbotInterface::on_init(const hardware_interface::HardwareInfo
     return CallbackReturn::SUCCESS;
 }
 
-std::vector<hardware_interface::StateInterface> BumerbotInterface::export_state_interfaces()
+std::vector<hardware_interface::StateInterface> BumperbotInterface::export_state_interfaces()
 {
     std::vector<hardware_interface::StateInterface> state_interfaces;
 
@@ -71,7 +72,7 @@ std::vector<hardware_interface::StateInterface> BumerbotInterface::export_state_
     return state_interfaces;
 }
 
-std::vector<hardware_interface::CommandInterface> BumerbotInterface::export_command_interfaces()
+std::vector<hardware_interface::CommandInterface> BumperbotInterface::export_command_interfaces()
 {
     std::vector<hardware_interface::CommandInterface> command_interfaces;
 
@@ -84,7 +85,7 @@ std::vector<hardware_interface::CommandInterface> BumerbotInterface::export_comm
     return command_interfaces;
 }
 
-CallbackReturn BumerbotInterface::on_activate(const rclcpp_lifecycle::State &previous_state)
+CallbackReturn BumperbotInterface::on_activate(const rclcpp_lifecycle::State &previous_state)
 {
     RCLCPP_INFO(rclcpp::get_logger("BumperbotInterface"), "Activating robot hardware...");
 
@@ -111,7 +112,7 @@ CallbackReturn BumerbotInterface::on_activate(const rclcpp_lifecycle::State &pre
     return CallbackReturn::SUCCESS;
 }
 
-CallbackReturn BumerbotInterface::on_deactivate(const rclcpp_lifecycle::State &previous_state)
+CallbackReturn BumperbotInterface::on_deactivate(const rclcpp_lifecycle::State &previous_state)
 {
 
     RCLCPP_INFO(rclcpp::get_logger("BumperbotInterface"), "Deactivating robot hardware...");
@@ -132,7 +133,7 @@ CallbackReturn BumerbotInterface::on_deactivate(const rclcpp_lifecycle::State &p
     return CallbackReturn::SUCCESS;
 }
 
-hardware_interface::return_type BumerbotInterface::read(const rclcpp::Time & time, const rclcpp::Duration & period)
+hardware_interface::return_type BumperbotInterface::read(const rclcpp::Time & time, const rclcpp::Duration & period)
 {
     if(arduino_.IsDataAvailable())
     {
@@ -162,7 +163,7 @@ hardware_interface::return_type BumerbotInterface::read(const rclcpp::Time & tim
     return hardware_interface::return_type::OK;
 }
 
-hardware_interface::return_type BumerbotInterface::write(const rclcpp::Time & time, const rclcpp::Duration & period)
+hardware_interface::return_type BumperbotInterface::write(const rclcpp::Time & time, const rclcpp::Duration & period)
 {
     std::stringstream message_stream;
     char right_wheel_sign = velocity_commands_.at(0) >= 0 ? 'p' : 'n';
@@ -209,4 +210,4 @@ hardware_interface::return_type BumerbotInterface::write(const rclcpp::Time & ti
 }
 
 #include <pluginlib/class_list_macros.hpp>
-PLUGINLIB_EXPORT_CLASS(bumperbot_firmware::BumerbotInterface, hardware_interface::SystemInterface)
+PLUGINLIB_EXPORT_CLASS(bumperbot_firmware::BumperbotInterface, hardware_interface::SystemInterface)

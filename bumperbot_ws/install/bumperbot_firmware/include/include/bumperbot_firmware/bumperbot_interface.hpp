@@ -14,11 +14,11 @@ namespace bumperbot_firmware
 {
 using CallbackReturn = rclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn;
 
-class BumerbotInterface : public hardware_interface::SystemInterface
+class BumperbotInterface : public hardware_interface::SystemInterface
 {
 public:
-    BumerbotInterface();
-    virtual ~BumerbotInterface();
+    BumperbotInterface();
+    virtual ~BumperbotInterface();
     
 
     virtual CallbackReturn on_activate(const rclcpp_lifecycle::State &previous_state) override;

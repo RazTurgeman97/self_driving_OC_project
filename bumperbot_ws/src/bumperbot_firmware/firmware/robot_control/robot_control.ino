@@ -46,7 +46,7 @@ double right_wheel_cmd = 0.0;
 double left_wheel_cmd = 0.0;
 
 
-// These values shoud ne *fine-tuned* to get desired results!! 
+// These values shoud be *fine-tuned* to get desired results!! 
 double Kp_r = 11.5;
 double Ki_r = 7.5;
 double Kd_r = 0.1;
